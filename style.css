@@ -1,0 +1,74 @@
+body {
+    margin: 5px auto;
+    max-width: 98%;
+    padding-right: 10px;
+    padding-left:  10px;
+  }
+*{box-sizing: border-box;}
+.head{padding: 1%;}
+.head h2{margin-left: 15px; color: white; padding: 1%;}
+.navbar a{display: inline-block; color: wheat; margin-right: 15px; text-decoration: none;}
+.banner{
+    color: black;
+    text-align: center;
+    padding: 3%;
+    background: url(images/library.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+button{padding: 2%; margin: 1%;}
+.frame{width: 100%; height: 650px;}
+.sectitle{margin-top: 0px;}
+.brand{padding: 3%;}
+.camp{height:350px; width:21%; margin: 2%; border: 1px solid rgb(199, 195, 195);}
+.camplogo{height:70%; width:60%; margin: 15px 10px; border: 1px solid black;}
+.revcamp{width:31%; height: 200px; margin: 1%; padding: 1%; border-radius: 15px; border: 1px solid rgb(199, 195, 195);}
+.revlogo{height:50%; width:25%; margin: 15px 10px; border-radius: 50%; border: 1px solid black;}
+.review{width: 60%; height: 80%; margin: 15px 10px;}
+.campshop{height: 100px; width: 16%; margin: 2%;}
+.shoplogo{height:100%; width:100%; border: 1px solid rgb(172, 172, 172);}
+.foot{padding:1% 2%; color: white;}
+.foot i{color: white;}
+
+.login{width: 95%; padding: 15px auto; margin: 5px auto; background: url(images/bg.jpg); background-size: 100% 100%;}
+.login h1{color: rgb(167, 98, 29);}
+.signup{padding: 15px; background: url(images/bg.jpg); background-size: 100% 100%;}
+.signupimg{width: 50%; height: 50%;}
+.signup h1{color: rgb(167, 98, 29);}
+.form{ margin: 30px 15px; width: 40%; padding: 20px;}
+.formfig{ margin: 30px 15px; width: 50%; padding: 20px;}
+.formfig img{width: 80%;}
+.form td{padding: 10px;}
+
+.cent{text-align: center;}
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear: both;}
+.row{margin-top: 5px;}
+.col1{background-color:rgb(167, 98, 29)}
+
+@media (max-width:1106px) and (min-width: 924px) {
+  .revcamp{width: 40%;
+  margin: 3%;}
+  
+}
+@media (max-width:923px) and (min-width:501px) {
+  .revcamp{width: 100%;
+  float: none;}
+  .camp{
+    width: 45%;
+    margin: 2%;
+  }
+  
+}
+@media (max-width:500px) {
+  .revcamp{width: 100%; float: none; }
+  .camp{width: 80%; float: none; margin: 2% auto;}
+  .campshop{width: 70%; margin: 3%; float: none; margin: 2% auto;}
+  
+}
+
+@media (max-width:750px) {
+  .form{width: 100%;}
+  .formfig{width: 80%; float: none; margin: 2% auto;}
+}
